@@ -1,0 +1,18 @@
+/* css for the footer of the page. */
+
+footer {
+  height: 39px;
+  width: 100%;
+  text-align: center;
+  background-color: #1b1b1b;
+  overflow: hidden;
+}
+
+footer > hr{
+  margin: 0px;
+  background-color: white;
+}
+
+footer > p{
+  margin-top: 6px;
+}

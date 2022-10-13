@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Renault - Kwid | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/car-page.css">
+  </head>
+
+  <body onload="loadSlider();">
+    <!-- Start of header -->
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" width="136px" alt="Carzz.com"></a>
+        </div>
+        <!-- Start of navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="../index.html"><span id="home">Home</span></a></li>
+                <hr>
+                <li><a href="../contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+            </ul>
+        </nav>
+        <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+        <div class="container">
+            <div class="general-info card">
+
+                <div id="heading">
+                    <div id="backButton">
+                        <a href="../renault.html">
+                            <h4>&#706;&#706; Back</h4>
+                        </a>
+                    </div>
+                    <h1>Renault Kwid</h1>
+                </div>
+
+                <!-- Code for car price and image -->
+                <div id="car-img">
+                    <img src="../images/renault/kwid/kwid-exterior-right-front-three-quarter.png" alt="Kwid car image">
+                    <div id="car-price">
+                        <h2>&#x20b9; 3.13 Lakh</h2>
+                        <p>Avg. Ex-showroom price</p>
+                    </div>
+                </div>
+                <!-- Code for car price and image ends -->
+
+                <!-- Code for slider -->
+                <div id="car-slider"><span class="left" onclick="changeImgLeft();">&#x276E;</span>
+                    <img src="../images/renault/kwid/slider/kwid-exterior-right-front-three-quarter-16.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/renault/kwid/slider/renault-kwid-exterior--action--rear-right-three-quarter-13.jpeg"
+                        alt="" class="sliderImg">
+                    <img src="../images/renault/kwid/slider/kwid-interior-dashboard-2.jpeg" alt="" class="sliderImg">
+                    <img src="../images/renault/kwid/slider/renault-kwid-instrument-cluster-66.jpeg" alt=""
+                        class="sliderImg">
+                    <span class="right" onclick="changeImgRight();">&#x276F;</span>
+                </div>
+                <!-- Code for slider ends -->
+
+            </div>
+
+            <div class="car-info">
+
+                <h2>Renault Kwid Summary</h2>
+
+                <p>The new Renault Kwid has been launched in India. The vehicle is available in eight variants, six
+                    colour options and two powertrains. The model receives updates to the exterior and interior while
+                    the engine specifications remain unchanged.</p>
+
+                <p>Exterior highlights of the Renault Kwid facelift include a new front bumper, split headlamp setup,
+                    LED DRLs, new three slat grille, contrast coloured ORVMs, C-shaped LED light guides and an
+                    integrated roof spoiler. Inside, the model comes equipped with an eight-inch touchscreen
+                    infotainment system with Apple CarPlay, Android Auto and Voice recognition; piano black centre
+                    console, fully digital LED instrument cluster and reverse parking camera with guidelines. <a
+                        href="javascript:void(0);" id="more">View more</a>
+                </p>
+                <span id="show-hide">
+                    <p>The facelifted Renault Kwid receives safety features in the form dual airbags, ABS with EBD,
+                        speed
+                        alert system, reverse parking sensors and seatbelt reminder for driver and co-driver. Engine
+                        options
+                        for the Kwid facelift include a 0.8-litre, three-cylinder petrol motor and a 1.0-litre,
+                        three-cylinder petrol motor. Transmission options will include a five-speed manual gearbox and
+                        an
+                        AMT unit. <a href="javascript:void(0);" id="less">View less</a>
+                    </p>
+                </span>
+            </div>
+
+            <div class="car-specs">
+                <h2>Renault Kwid Key Specifications</h2>
+
+                <table>
+                    <tr>
+                        <td>Power</td>
+                        <td>67 bhp</td>
+                    </tr>
+                    <tr>
+                        <td>Torque</td>
+                        <td>91 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>799 to 999 cc</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Type</td>
+                        <td>54PS 0.8-litre unit and a 68PS 1.0-litre petrol engine</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>Manual & AMT</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Type</td>
+                        <td>Petrol</td>
+                    </tr>
+                    <tr>
+                        <td>Seating Capacity</td>
+                        <td>5 Seater</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+        <hr>
+        <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+
+  <!-- Javascript -->
+  <script src="../js/slider.js"></script>
+  <!-- ------------------------------------ -->
+
+  <!-- Jquery-->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/showhide.js"></script>
+  <!-- ------------------------------------ -->
+
+</html>

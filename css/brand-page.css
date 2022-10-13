@@ -1,0 +1,51 @@
+/* css for brand pages  of cars. */
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.general-info h1 {
+  margin: 0px;
+  padding-top: 15px;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+.general-info p {
+  text-align: justify;
+}
+
+.car-models {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.car-models h2 {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.car-models a {
+  color: white;
+}
+
+.car-models img {
+  width: 227px;
+  height: 128px;
+}
+
+backButton{
+  float: right
+}
+
+#backButton h4 {
+  padding-top: 21px;
+  margin: 0px;
+}
+
+#backButton a {
+  color: white;
+}

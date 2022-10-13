@@ -1,0 +1,84 @@
+/* css for the index.html page */
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.banner {
+  background-image: url(../images/home-page-banner.webp);
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #0b2e40;
+  height: 400px;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 26px;
+  font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+  text-transform: uppercase;
+  color: white !important;
+}
+
+.brands {
+  height: 290px;
+  overflow: hidden;
+}
+
+.brands h2 {
+  text-align: center;
+}
+
+.brands table {
+  margin: auto;
+}
+
+.brands table tr td img {
+  width: 150px;
+}
+
+.brands table tr td {
+  text-align: center;
+}
+@media screen and (max-width:450px) {
+  *{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body{
+    height: 100vh;
+    width: 100%;
+  }
+  .brands{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .brands table tr{
+    display: flex;
+    flex-direction: column;
+  }
+  nav a{
+    font-size: 10px;
+  }
+  nsv hr{
+    display: none;
+  }
+  nav ul{
+    padding: 0%;
+    margin: 0%;
+  }
+  .banner {
+    background-image: url(../images/home-page-banner.webp);
+    position: relative;
+    background-size:cover ;
+    background-position: -800px;
+    background-repeat: no-repeat;
+    background-color: #0b2e40;
+    height: 50vh;
+  }
+}

@@ -1,0 +1,109 @@
+/* css for car-model pages */
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#heading {
+  width: 100%;
+  display: inline-flex;
+  border-bottom: 1px solid white;
+  padding: 0px 0px 0px 0px;
+}
+
+#heading #backButton h4 {
+  padding-top: 21px;
+  margin: 0px;
+}
+
+#heading #backButton a {
+  color: white;
+}
+
+.general-info{
+  height: 300px;
+}
+
+.general-info h1 {
+  margin: auto;
+  padding-top: 15px;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+#car-img img{
+  width: 380px;
+  float: left;
+}
+
+#car-price{
+  width: 210px;
+  float: left;
+  margin-top: 60px;
+}
+
+#car-slider img{
+  float: left;
+  width: 526px;
+  height: 220px;
+  margin: 12px 0px 0px 12px;
+  border-radius: 5px;
+  display: none;
+}
+
+#car-slider .left{
+  font-size: 30px;
+  cursor: pointer;
+  margin: 104px 0px 0px 30px;
+  position: absolute;
+}
+
+#car-slider .right{
+  font-size: 30px;
+  cursor: pointer;
+  margin: 104px 0px 0px -30px;
+  position: absolute;
+}
+
+.car-info{
+  border-bottom: 1px solid #ffffff5c;
+}
+
+.car-info h2, .car-specs h2{
+  text-decoration: underline;
+}
+
+.car-info p {
+  text-align: justify;
+}
+
+.car-specs {
+  padding-bottom: 10px;
+}
+
+.car-specs table tr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1365px) {
+
+  .general-info{
+    height: 520px;
+  }
+
+  #car-slider{
+    float: left;
+  }
+
+  #car-slider img {
+    width: 734px;
+    height: 220px;
+    margin: 12px 0px 0px 12px;
+    border-radius: 5px;
+    display: none;
+  }
+
+}

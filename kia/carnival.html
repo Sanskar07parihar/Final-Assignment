@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Kia - Carnival | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/car-page.css">
+  </head>
+
+  <body onload="loadSlider();">
+    <!-- Start of header -->
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" width="136px" alt="Carzz.com"></a>
+        </div>
+        <!-- Start of navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="../index.html"><span id="home">Home</span></a></li>
+                <hr>
+                <li><a href="../contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+            </ul>
+        </nav>
+        <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+        <div class="container">
+            <div class="general-info card">
+
+                <div id="heading">
+                    <div id="backButton">
+                        <a href="../kia.html">
+                            <h4>&#706;&#706; Back</h4>
+                        </a>
+                    </div>
+                    <h1>Kia Carnival</h1>
+                </div>
+
+                <!-- Code for car price and image -->
+                <div id="car-img">
+                    <img src="../images/kia/carnival/kia-carnival-right-front-three-quarter.png"
+                        alt="Carnival car image">
+                    <div id="car-price">
+                        <h2>&#x20b9; 24.95 - 33.95 Lakh</h2>
+                        <p>Avg. Ex-Showroom price</p>
+                    </div>
+                </div>
+                <!-- Code for car price and image ends -->
+
+                <!-- Code for slider -->
+                <div id="car-slider"><span class="left" onclick="changeImgLeft();">&#x276E;</span>
+                    <img src="../images/kia/carnival/slider/carnival-exterior-right-front-three-quarter-54.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/kia/carnival/slider/carnival-exterior-left-rear-three-quarter.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/kia/carnival/slider/carnival-interior-dashboard.jpeg" alt="" class="sliderImg">
+                    <img src="../images/kia/carnival/slider/carnival-interior-instrument-cluster.jpeg" alt=""
+                        class="sliderImg">
+                    <span class="right" onclick="changeImgRight();">&#x276F;</span>
+                </div>
+                <!-- Code for slider ends -->
+            </div>
+            <div class="car-info">
+                <h2>Kia Carnival Summary</h2>
+
+                <p>
+                    The Kia Grand Carnival is the second product under consideration for the Indian market. The company
+                    had revealed its plans to launch a new car in India in every six - nine months and the Grand
+                    Carnival is expected to be launched in the first half of 2020. Also known as the Kia Sedona in some
+                    global markets, the Grand Carnival is available in seven, eight and eleven-seat configurations. <a
+                        href="javascript:void(0);" id="more">View more</a>
+                </p>
+                <span id="show-hide">
+                    <p>In India, the luxury MPV is expected to be powered by a 2.2-litre CRDi diesel motor that makes
+                        202bhp and 441Nm and will be mated to a six-speed automatic transmission. Internationally, it
+                        also
+                        gets a 3.3-litre V6 petrol engine; however, the chances of this powertrain coming to our shores
+                        are
+                        bleak. Kia Motors India is considering a price of around Rs 25 lakhs (ex-showroom) for the Grand
+                        Carnival. <a href="javascript:void(0);" id="less">View less</a>
+                    </p>
+                </span>
+            </div>
+
+            <div class="car-specs">
+                <h2>Kia Carnival Key Specifications</h2>
+
+                <table>
+                    <tr>
+                        <td>Power</td>
+                        <td>197.2 bhp</td>
+                    </tr>
+                    <tr>
+                        <td>Torque</td>
+                        <td>440 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>2199 cc</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Type</td>
+                        <td>2.2-litre CRDi diesel engine</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>automatic</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Type</td>
+                        <td>Diesel</td>
+                    </tr>
+                    <tr>
+                        <td>Seating Capacity</td>
+                        <td>7 Seater</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+        <hr>
+        <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+
+  <!-- Javascript -->
+  <script src="../js/slider.js"></script>
+  <!-- ------------------------------------ -->
+
+  <!-- Jquery -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/showhide.js"></script>
+  <!-- ------------------------------------ -->
+
+</html>

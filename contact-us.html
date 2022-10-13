@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Contact Us | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!--Now we will like css style page to our html page.-->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Start of header -->
+    <header>
+      <div class="logo">
+        <a href="index.html">
+        <img src="images/logo.png" width="136px" alt="Carzz.com"></a>
+      </div>
+      <!-- Start of navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html"><span id="home">Home</span></a></li>
+          <hr>
+          <li><a href="contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+        </ul>
+      </nav>
+      <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+      <div class="container">
+        <div class="heading">
+          <h1>Contact Us</h1>
+          </div>
+          <form action="">
+          <input type="text" name="name" placeholder="Enter your name" required>
+          <br>
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <br>
+          <textarea name="query" cols="50" rows="10" placeholder="Enter your query" required></textarea>
+          <br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Clear">
+        </form>
+      </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+      <hr>
+      <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+    <!-- Jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/contactUs.js"></script>
+    <!---------------------------------->
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Home | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+    <!--Now we will like css style page to our html page.-->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+  </head>
+  <body>
+    <!-- Start of header -->
+    <header>
+      <div class="logo">
+        <a href="index.html">
+        <img src="images/logo.png" width="136px" alt="Carzz.com"></a>
+      </div>
+      <!-- Start of navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html"><span id="home">Home</span></a></li>
+          <li><a href="contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+        </ul>
+      </nav>
+      <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+      <div class="banner">
+        <h1>Find all the information about a car</h1>
+      </div>
+      <div class="brands">
+        <h2>Car brands</h2>
+        <table>
+          <tr>
+            <td>
+              <a href="renault.html">
+              <img id="renault-logo" src="images/renault.png" alt="renault logo"></a>
+            </td>
+            <td>
+              <a href="kia.html">
+              <img id="kia-logo" src="images/kia.png" alt="kia logo"></a>
+            </td>
+            <td>
+              <a href="mg.html">
+              <img id="mg-logo" src="images/mg.png" alt="mg logo"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>Renault</td>
+            <td>Kia Motors</td>
+            <td>Morris Garages</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+      <hr>
+      <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Jquery-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

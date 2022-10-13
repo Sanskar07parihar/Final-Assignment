@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Kia - Seltos | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/car-page.css">
+
+  </head>
+
+  <body onload="loadSlider();">
+    <!-- Start of header -->
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" width="136px" alt="Carzz.com"></a>
+        </div>
+        <!-- Start of navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="../index.html"><span id="home">Home</span></a></li>
+                <hr>
+                <li><a href="../contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+            </ul>
+        </nav>
+        <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+        <div class="container">
+            <div class="general-info card">
+
+                <div id="heading">
+                    <div id="backButton">
+                        <a href="../kia.html">
+                            <h4>&#706;&#706; Back</h4>
+                        </a>
+                    </div>
+                    <h1>Kia Seltos</h1>
+                </div>
+
+                <!-- Code for car price and image -->
+                <div id="car-img">
+                    <img src="../images/kia/seltos/seltos-exterior-right-front-three-quarter.png"
+                        alt="Seltos car image">
+                    <div id="car-price">
+                        <h2>&#x20b9; 9.89 - 17.45 Lakh</h2>
+                        <p>Avg. Ex-Showroom price</p>
+                    </div>
+                </div>
+                <!-- Code for car price and image ends -->
+
+                <!-- Code for slider -->
+                <div id="car-slider"><span class="left" onclick="changeImgLeft();">&#x276E;</span>
+                    <img src="../images/kia/seltos/slider/kia-seltos-right-front-three-quarter98.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/kia/seltos/slider/kia-seltos-right-rear-three-quarter97.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/kia/seltos/slider/seltos-interior-dashboard.jpeg" alt="" class="sliderImg">
+                    <img src="../images/kia/seltos/slider/seltos-interior-instrument-cluster.jpeg" alt=""
+                        class="sliderImg">
+                    <span class="right" onclick="changeImgRight();">&#x276F;</span>
+                </div>
+                <!-- Code for slider ends -->
+            </div>
+            <div class="car-info">
+                <h2>Kia Seltos Summary</h2>
+
+                <p>
+                    The Kia Seltos is the first SUV from Kia for the Indian car market and has been on sale since last
+                    year. The D-segment SUV is offered in the Indian market across 16 variants, three engine options and
+                    two trim levels.</p>
+
+                <p>In terms of exterior looks, the Kia Seltos has a very busy but unique front design. The
+                    chrome-finished signature tiger-nose grille is flanked by stylish pair of headlamps which are
+                    integrated with LED day-time-running lights. The horizontally stacked fog-lamps also look handsome.
+                    At the back, the well-appointed LED headlamps add to the muscular stance of Seltos. There’s chrome
+                    slat joining the tail lamps and the sculpted bumper with faux bash plates rounds off the Seltos’
+                    exterior looks. Dimension wise, the Seltos measures 4315x1800x1620 mm with a wheelbase of 2610mm, a
+                    ground clearance of 190mm. <a href="javascript:void(0);" id="more">View more</a>
+                </p>
+                <span id="show-hide">
+                    <p>Inside, on the top spec models, you get leather upholstery, climate control, mood lighting,
+                        touchscreen infotainment system with Apple CarPlay and Android Auto, air purifier and a
+                        360-degree
+                        surround camera.</p>
+
+                    <p> Powertrain options for the Kia Seltos include a 1.5-litre petrol engine, 1.4-litre turbo-petrol
+                        engine and a 1.5-litre diesel engine. The 1.5-litre petrol motor is available with a six speed
+                        manual transmission and a CVT unit. The 1.4-litre turbo-petrol motor is offered only with a
+                        seven-speed DCT unit. The 1.5-litre diesel motor can be had with a six speed manual transmission
+                        or
+                        a six-speed automatic transmission.</p>
+
+                    <p>The Kia Seltos is a rival for the likes of the Hyundai Creta, Nissan Kicks, Renault Duster and
+                        the
+                        Maruti Suzuki S-Cross. At the higher end of the Seltos range you can also have mid-spec models
+                        of
+                        the MG Hector, Mahindra XUV500 and the Tata Harrier. <a href="javascript:void(0);"
+                            id="less">View less</a>
+                    </p>
+                </span>
+            </div>
+
+            <div class="car-specs">
+                <h2>Kia Seltos Key Specifications</h2>
+
+                <table>
+                    <tr>
+                        <td>Power</td>
+                        <td>113.4 bhp</td>
+                    </tr>
+                    <tr>
+                        <td>Torque</td>
+                        <td>250 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>1353 to 1497 cc</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Type</td>
+                        <td>1.5-litre petrol engine, 1.4-litre turbo-petrol engine and a 1.5-litre diesel engine</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>manual / automatic</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Type</td>
+                        <td>Petrol & Diesel</td>
+                    </tr>
+                    <tr>
+                        <td>Seating Capacity</td>
+                        <td>5 Seater</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+        <hr>
+        <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+
+  <!-- Javascript -->
+  <script src="../js/slider.js"></script>
+  <!-- ----------------------------------- -->
+
+  <!-- Jquery -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/showhide.js"></script>
+  <!-- ------------------------------------ -->
+
+</html>

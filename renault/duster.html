@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Renault - Duster | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+  
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/car-page.css">
+  </head>
+
+  <body onload="loadSlider();">
+    <!-- Start of header -->
+    <header>
+      <div class="logo">
+        <a href="../index.html">
+        <img src="../images/logo.png" width="136px" alt="Carzz.com"></a>
+      </div>
+      <!-- Start of navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="../index.html"><span id="home">Home</span></a></li>
+          <hr>
+          <li><a href="../contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+        </ul>
+      </nav>
+      <!-- End of navigation menu -->
+    </header>
+    <!-- End of header -->
+    <!-- Main content of page -->
+    <main>
+      <div class="container">
+        <div class="general-info card">
+          <div id="heading">
+            <div id="backButton">
+              <a href="../renault.html">
+                <h4>&#706;&#706; Back</h4>
+              </a>
+            </div>
+            <h1>Renault Duster</h1>
+          </div>
+          <!-- Code for car price and image -->
+          <div id="car-img">
+            <img src="../images/renault/duster/duster-exterior-right-front-three-quarter.png" alt="Duster car image">
+            <div id="car-price">
+              <h2>&#x20b9; 9.56 Lakh</h2>
+              <p>Estimated Price</p>
+            </div>
+          </div>
+          <!-- Code for car price and image ends -->
+
+          <!-- Code for slider -->
+          <div id="car-slider"><span class="left" onclick="changeImgLeft();">&#x276E;</span>
+            <img src="../images/renault/duster/slider/duster-exterior-left-front-three-quarter.jpeg" alt="" class="sliderImg">
+            <img src="../images/renault/duster/slider/duster-exterior-right-rear-three-quarter.jpeg" alt="" class="sliderImg">
+            <img src="../images/renault/duster/slider/duster-interior-dashboard.jpeg" alt="" class="sliderImg">
+            <img src="../images/renault/duster/slider/duster-interior-instrument-cluster.jpeg" alt="" class="sliderImg">
+            <span class="right" onclick="changeImgRight();">&#x276F;</span>
+          </div>
+          <!-- Code for slider ends -->
+        </div>
+        <div class="car-info">
+          <h2>Renault Duster Summary</h2>
+
+          <p>The Renault Duster turbo-petrol variant has been launched in India, with prices ranging from Rs 10.49
+          lakh to Rs 13.59 lakh (all prices, ex-showroom, all India). The model is available in five trims
+          across MT and CVT variants. The Duster turbo-petrol, which was showcased at the Auto Expo 2020, is
+          powered by a 1.3-litre turbo-petrol engine.</p>
+
+          <p>Under the hood of the Renault Duster turbo-petrol variant is a 1.3-litre engine producing 154bhp and
+          254Nm of torque. Transmission options include a six-speed manual transmission and a CVT unit, with
+          the latter also featuring a seven-speed manual mode. These variants return a claimed fuel efficiency
+          of 16.5kmpl and 16.42kmpl respectively. <a href="javascript:void(0);" id="more">View more</a></p>
+          <span id="show-hide">
+          <p>Changes to the exterior of the Renault Duster turbo-petrol variant includes Crimson Red accents
+          on
+          the grille, front bumper, roof rails, fog lamp cluster and tail-gate embellisher. Also on offer
+          are
+          body coloured ORVMs, new 17-inch alloy wheels and black roof rails.</p>
+
+          <p>Inside, the Renault Duster turbo-petrol version comes equipped with a seven-inch touchscreen
+          infotainment system with Apple CarPlay, Android Auto and voice recognition, cruise control,
+          Arkamys
+          sourced four speaker and two tweeter music system, engine start-stop button. Safety features on
+          the
+          model include dual airbags, ABS with EBD, rear parking sensors, speed alert system, seat belt
+          reminder, reverse parking camera, ESP and hill start assist. <a href="javascript:void(0);"
+          id="less">View less</a>
+          </p>
+          </span>
+        </div>
+
+        <div class="car-specs">
+          <h2>Renault Duster Key Specifications</h2>
+          <table>
+            <tr>
+              <td>Power</td>
+              <td>154 bhp</td>
+            </tr>
+            <tr>
+              <td>Torque</td>
+              <td>254 Nm</td>
+            </tr>
+            <tr>
+              <td>Engine</td>
+              <td>1330 to 1498 cc</td>
+            </tr>
+            <tr>
+              <td>Engine Type</td>
+              <td>1.3-litre turbo-petrol engine </td>
+            </tr>
+            <tr>
+              <td>Transmission</td>
+              <td>Manual & Automatic (CVT)</td>
+            </tr>
+            <tr>
+              <td>Fuel Type</td>
+              <td>Petrol</td>
+            </tr>
+            <tr>
+              <td>Seating Capacity</td>
+              <td>5 Seater</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+      <hr>
+      <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+
+  <!-- Javascript -->
+  <script src="../js/slider.js"></script>
+  <!-- ----------------------------------->
+
+  <!-- Jquery -->
+  <script src="../js/menu.js"></script>
+  <script src="../js/showhide.js"></script>
+  <!------------------------------------->
+
+</html>

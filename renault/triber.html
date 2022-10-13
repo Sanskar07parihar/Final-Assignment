@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The HTMLS specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world. -->
+    <meta charset="UTF-8">
+    <!-- The following meta tag is very important for responsive design, it addresses the scaling of elements. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- next important tag is the title tag -->
+    <title>Renault - Triber | Carzz.com</title>
+    <!-- next will define the page description -->
+    <meta name="discription" content="This is Final Assignment">
+    <!-- The next meta tag speaks directly to search engines. We use this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/car-page.css">
+
+  </head>
+
+  <body onload="loadSlider();">
+    <!-- Start of header -->
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" width="136px" alt="Carzz.com"></a>
+        </div>
+        <!-- Start of navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="../index.html"><span id="home">Home</span></a></li>
+                <hr>
+                <li><a href="../contact-us.html"><span id="contactUs">Contact Us</span></a></li>
+            </ul>
+        </nav>
+        <!-- End of navigation menu -->
+        <!-- Main content of page -->
+    </header>
+    <main>
+        <div class="container">
+            <div class="general-info card">
+
+                <div id="heading">
+                    <div id="backButton">
+                        <a href="../renault.html">
+                            <h4>&#706;&#706; Back</h4>
+                        </a>
+                    </div>
+                    <h1>Renault Triber</h1>
+                </div>
+
+                <!-- Code for car price and image -->
+                <div id="car-img">
+                    <img src="../images/renault/triber/triber-exterior-right-front-three-quarter.png"
+                        alt="Triber car image">
+                    <div id="car-price">
+                        <h2>&#x20b9; 5.20 Lakh</h2>
+                        <p>Avg. Ex-showroom price</p>
+                    </div>
+                </div>
+                <!-- Code for car price and image ends -->
+
+                <!-- Code for slider -->
+                <div id="car-slider"><span class="left" onclick="changeImgLeft();">&#x276E;</span>
+                    <img src="../images/renault/triber/slider/triber-exterior-left-front-three-quarter-2.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/renault/triber/slider/triber-exterior-right-rear-three-quarter-2.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/renault/triber/slider/triber-interior-dashboard-2.jpeg" alt=""
+                        class="sliderImg">
+                    <img src="../images/renault/triber/slider/triber-interior-instrument-cluster-2.jpeg" alt=""
+                        class="sliderImg">
+                    <span class="right" onclick="changeImgRight();">&#x276F;</span>
+                </div>
+                <!-- Code for slider ends -->
+            </div>
+
+            <div class="car-info">
+
+                <h2>Renault Triber Summary</h2>
+
+                <p>Renault Triber is available in four variants - RXE, RXL, RXT and the RXZ. The seven-seat vehicle
+                    gets the under four-meter price advantage and is limited to a petrol engine option. Renault boasts
+                    of
+                    offering more than 20 key features as standard across all trims.</p>
+
+                <p>The Renault Triber is powered by a 1.0-litre three-cylinder petrol engine that generates 72bhp
+                    and 96Nm of torque. Currently, the engine comes mated only to a five-speed manual transmission,
+                    while a five-speed AMT is expected to be introduced at a later date. <a href="javascript:void(0);"
+                        id="more">View
+                        more</a>
+                </p>
+                <span id="show-hide">
+                    <p>The Renault Triber features the signature Renault grille and projector headlamps, while the
+                        sides get a black cladding and flared rear wheel arches. The company claims that its unique body
+                        style
+                        bridges the gap between the Kwid and Renault’s SUV offerings in India.</p>
+
+                    <p>The interior of the Triber gets a black and beige combination with three rows of seating and the
+                        last row can be removed completely to access a 625-litre boot. Moreover, the second and
+                        third-row can be folded in various combinations or as Renault puts its “modes” for extra space.
+                        The
+                        top-spec RXZ variant gets an AC with second-row vents and a cooled glovebox, multiple storage
+                        spaces,
+                        dual front glove boxes and a touchscreen infotainment system with Apple CarPlay/Android Auto. <a
+                            href="javascript:void(0);" id="less">View less</a>
+                    </p>
+                </span>
+            </div>
+
+            <div class="car-specs">
+                <h2>Renault Triber Key Specifications</h2>
+
+                <table>
+                    <tr>
+                        <td>Power</td>
+                        <td>72 bhp</td>
+                    </tr>
+                    <tr>
+                        <td>Torque</td>
+                        <td>96 Nm</td>
+                    </tr>
+                    <tr>
+                        <td>Engine</td>
+                        <td>999 cc</td>
+                    </tr>
+                    <tr>
+                        <td>Engine Type</td>
+                        <td>1.0-litre three-cylinder petrol engine</td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td>Manual & AMT</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Type</td>
+                        <td>Petrol</td>
+                    </tr>
+                    <tr>
+                        <td>Seating Capacity</td>
+                        <td>7 Seater</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- End of main content -->
+    <!-- Start of footer -->
+    <footer>
+        <hr>
+        <p>&#169; 2020 - 2021. www.carzz.com</p>
+    </footer>
+    <!-- End of footer -->
+  </body>
+
+  <!-- Javascript -->
+  <script src="../js/slider.js"></script>
+  <!-- ------------------------------------ -->
+
+  <!-- Jquery-->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/showhide.js"></script>
+  <!-- ------------------------------------ -->
+
+</html>
